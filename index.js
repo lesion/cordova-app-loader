@@ -154,7 +154,7 @@ AppLoader.prototype.check = function(newManifest){
                     // if new file, or...
             return !oldFiles[file] ||
                     // version has changed, or...
-                    oldFiles[file].version !== newFiles[file].version //||
+                    oldFiles[file].version !== newFiles[file].version ||
                     // not in cache for some reason
                     !self.cache.isCached(file);
           })
