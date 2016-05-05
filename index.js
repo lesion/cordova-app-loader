@@ -1,5 +1,4 @@
 var CordovaFileCache = require('cordova-file-cache');
-var CordovaPromiseFS = require('cordova-promise-fs');
 var Promise = null;
 
 var BUNDLE_ROOT = location.href.replace(location.hash,'');
