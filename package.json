@@ -26,5 +26,10 @@
   "license": "MIT",
   "dependencies": {
     "cordova-file-cache": "^1.1.1"
+  },
+  "devDependencies": {
+    "cordova-promise-fs": "^1.1.1",
+    "promiscuous": "^0.6.0",
+    "webpack": "^1.13.0"
   }
 }
